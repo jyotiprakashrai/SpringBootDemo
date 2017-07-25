@@ -16,7 +16,7 @@ public class Test {
 	
 	
 
-	private ArrayList<Integer> getErrors(double[] CN,double point){
+	public static ArrayList<Integer> getErrors(double[] CN,double point){
 		 ArrayList<Integer> indexList = new ArrayList<Integer>();
 		 for (int i = 0; i < CN.length; i++){
 			 if(CN[i]==point)
